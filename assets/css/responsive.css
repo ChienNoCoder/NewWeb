@@ -1,0 +1,25 @@
+/* reponsive(thiết kế) cho web chạy trên các tb: PC, Ipad, mobile */
+/* PC >= 1024px
+   Tablet(máy tính bảng): >= 740px < 1024px
+   Mobile: < 740px */
+
+/* PC */
+@media (min-width: 1024px){
+
+}
+
+/* Tablet */
+@media ((min-width: 740px) and (max-width: 1023px)){
+   
+}
+
+/* Mobile */
+@media (max-width: 739px){
+    #nav > li{
+        display: block;
+    }
+
+    #header .search-btn{
+        display: none;
+    }
+}
